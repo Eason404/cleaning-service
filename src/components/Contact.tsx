@@ -208,8 +208,11 @@ export function Contact() {
                 >
                   {submitting ? 'Submitting Request...' : 'Send Request to Simone'}
                 </button>
-                <p className="text-xs text-center text-slate-500 mt-4">
+                <p className="text-xs text-center text-slate-500 mt-3">
                   Or call <a href="tel:5083833084" className="text-teal-600 font-bold hover:underline">508-383-3084</a> directly.
+                </p>
+                <p className="text-[11px] text-center text-slate-400 mt-3 leading-normal border-t border-slate-100 pt-3">
+                  * Submitting this form requests a non-binding estimate. Website services are provided "as-is" by voluntary contributors without legal warranty.
                 </p>
               </form>
             )}
